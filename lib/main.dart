@@ -1,3 +1,4 @@
+import 'package:age_estimator/features/home/view/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,26 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-
- 
-  Widget build(BuildContext context) {
-    
-    return Scaffold(
-     
+      home: const HomePage(),
     );
   }
 }
