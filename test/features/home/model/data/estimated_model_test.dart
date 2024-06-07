@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:age_estimator/features/home/model/estimated_age_model.dart';
+import 'package:age_estimator/features/home/model/data/estimated_age_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import '../../../fixtures/fixture_reader.dart';
+import '../../../../fixtures/fixture_reader.dart';
 
 void main() {
   late Map<String, dynamic> resultMap;
