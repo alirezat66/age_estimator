@@ -1,6 +1,7 @@
 import 'package:age_estimator/core/constants/values.dart';
 import 'package:age_estimator/core/network/cache/internal_cache_repository.dart';
 
+// Http has cache itself but it is not working for windows and web so I implemented my own cache system
 class InternalCacheImpl implements InternalCacheRepository {
   final Map<String, Map<String, dynamic>> _cache =
       <String, Map<String, dynamic>>{};

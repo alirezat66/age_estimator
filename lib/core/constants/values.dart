@@ -6,3 +6,5 @@ const kLargePadding = 20;
 const kVeryLargePadding = 24;
 
 const kDefaultCacheValidationMinutes = Duration(minutes: 10);
+
+const kBaseUrl = 'https://api.agify.io';
