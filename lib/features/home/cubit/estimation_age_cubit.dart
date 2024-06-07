@@ -19,4 +19,8 @@ class EstimationAgeCubit extends Cubit<EstimationAgeState> {
       emit(EstimationAgeError(e.toString()));
     }
   }
+
+  void reset() {
+    emit(EstimationAgeInitial());
+  }
 }

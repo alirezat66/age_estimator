@@ -3,14 +3,7 @@ import 'package:flutter/material.dart';
 
 /// Define a [ThemeData] object named lightTheme
 ThemeData lightTheme = ThemeData(
-  bottomSheetTheme: BottomSheetThemeData(
-    backgroundColor: Colors.white,
-    shape: RoundedRectangleBorder(
-      borderRadius: BorderRadius.circular(16),
-    ),
-    shadowColor: Colors.black.withOpacity(0.16),
-    elevation: 4,
-  ),
+  useMaterial3: true,
 
   /// inputDecorationTheme
   inputDecorationTheme: InputDecorationTheme(
@@ -139,10 +132,6 @@ ThemeData lightTheme = ThemeData(
     ),
   ),
 
-  /// Set the style for the [Checkbox] widget
-
-  /// Set the style for the [AppBar] widget
-
   /// Set the style for the [ElevatedButton] widget
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
@@ -150,9 +139,10 @@ ThemeData lightTheme = ThemeData(
       backgroundColor: const Color(0xFFD94B5D),
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(4),
+        borderRadius: BorderRadius.circular(16),
       ),
       foregroundColor: Colors.white,
+      disabledBackgroundColor: const Color(0xFFE0E0E0),
       textStyle: const TextStyle(
         fontSize: 14,
         fontWeight: FontWeight.w500,
