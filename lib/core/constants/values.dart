@@ -4,3 +4,5 @@ const kMediumPadding = 12;
 const kNormalPadding = 16;
 const kLargePadding = 20;
 const kVeryLargePadding = 24;
+
+const kDefaultCacheValidationMinutes = Duration(minutes: 10);
