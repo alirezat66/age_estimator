@@ -12,7 +12,7 @@ In test part you can see test
 ## Some info about project
 
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
 [![Maintain Status](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]()
@@ -37,7 +37,7 @@ In test part you can see test
 
 ## Demo
 
-![myfile](https://github.com/alirezat66/age_estimator/assets/screen_record.gif)
+![myfile](https://github.com/alirezat66/age_estimator/blob/main/assets/screen_record.gif)
 
 ## Color Reference
 
