@@ -7,7 +7,14 @@ For implementation of UI, I used both **Strategy** as well as **Factory** of **D
 The application take a name from user and send it for www.agify.io api for get estimation age based on your name.
 I also use  **Internal Cache** strategy for make app faster. 
 In fetching data from api, you can see two implementation on with  **Async** and **Isolate**, but I prefered using **Async** here.
-In test part you can see test
+In test part you can see tests for both unit and widget.
+
+## Time Consumption
+
+Implementation of application got around 2.5 h. Most of time was about creating structure. 
+
+![myfile](https://github.com/alirezat66/age_estimator/blob/main/assets/time.png)
+
  
 ## Some info about project
 
